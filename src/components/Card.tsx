@@ -25,7 +25,6 @@ function getTagColor(tag: string): string {
 const Card = ({ image, title, label, link }: CardProps) => (
     <a href={link} target="_blank" className="card-container">
         <div className="image-container">
-            <div className="overlay"></div>
             <img src={image} alt={image} className="image-thumbnail"/>
         </div>
         <div className='text-flex'>
