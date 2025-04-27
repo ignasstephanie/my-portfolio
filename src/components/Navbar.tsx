@@ -25,7 +25,7 @@ function Navbar() {
                 <Link to="/portfolio" className={path === '/portfolio' ? 'active' : ''}>Portfolio</Link>
                 {/* <Link to="/contact" className={path === '/contact' ? 'active' : ''}>Contact</Link> */}
                 <button className="button button-nav" onClick={handleDownload}>
-                    <p className="gradient-text font-semibold">Download CV</p>
+                    <p className="gradient-text font-semibold hide-text">Download CV</p>
                     <img width="20px" src={Download} alt="Download icon" />
                 </button>
             </div>

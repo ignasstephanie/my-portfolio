@@ -10,8 +10,7 @@ const Timeline = ({ title, institution, award }: Props) => (
     <div className="timeline-text">
         <h6>{title}</h6>
         <div className="small-text">
-            <p>{institution}</p>
-            <p>{award}</p>
+            <p>{institution}<br/>{award}</p>
         </div>
     </div>
 );

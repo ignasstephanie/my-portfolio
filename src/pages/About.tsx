@@ -41,7 +41,7 @@ function About()
                                     <Icon key={index} {...academic} />
                                 ))}
                             </div>
-                            <div className="timeline-list">
+                            <div className="timeline-list gap-small">
                                 {academics.map((academic, index) => (
                                     <Timeline key={index} {...academic} />
                                 ))}
@@ -56,7 +56,7 @@ function About()
                                     <Icon key={index} {...job} />
                                 ))}
                             </div>
-                            <div className="timeline-list">
+                            <div className="timeline-list gap-large">
                                 {jobs.map((job, index) => (
                                     <Timeline key={index} {...job} />
                                 ))}
