@@ -1,108 +1,108 @@
 [
   {
-    "image": "src/assets/images/works/law-practice-ai-website.png",
+    "image": "public/assets/images/works/law-practice-ai-website.png",
     "title": "Law Practice AI Website",
     "label": ["UI/UX Design", "Web Development"],
     "link": "https://www.lawpractice.ai/"
   },
   {
-    "image": "src/assets/images/works/law-practice-ai-logo.png",
+    "image": "public/assets/images/works/law-practice-ai-logo.png",
     "title": "Law Practice AI Logo",
     "label": ["Logo Design"],
     "link": "https://www.behance.net/gallery/197737429/Law-Practice-AI-Logo"
   },
   {   
-    "image": "src/assets/images/works/isobiz-website.png",
+    "image": "public/assets/images/works/isobiz-website.png",
     "title": "ISOBIZ Group Website",
     "label": ["UI/UX Design", "Web Development"],
     "link": "https://isobizgroup.ae/"
   },
   {
-    "image": "src/assets/images/works/uc-website.png",
+    "image": "public/assets/images/works/uc-website.png",
     "title": "Ultraman Connection Website",
     "label": ["UI/UX Design", "Web Development"],
     "link": "https://www.ultramanconnection.com/"
   },
   {
-    "image": "src/assets/images/works/metodo-zenon-website.png",
+    "image": "public/assets/images/works/metodo-zenon-website.png",
     "title": "Metodo Zenon Website",
     "label": ["Web Development"],
     "link": "https://metodozenon.com/"
   },
   {   
-    "image": "src/assets/images/works/get-dat-work-logo.png",
+    "image": "public/assets/images/works/get-dat-work-logo.png",
     "title": "GetDatWork Logo",
     "label": ["Logo Design"],
     "link": "https://www.behance.net/gallery/149944257/GetDatWork-Logo"
   },
   {
-    "image": "src/assets/images/works/addu-sas-website.png",
+    "image": "public/assets/images/works/addu-sas-website.png",
     "title": "AdDU School of Arts & Sciences",
     "label": ["UI/UX Design", "Web Development"],
     "link": ""
   },
   {   
-    "image": "src/assets/images/works/addu-blue-vote-website.png",
+    "image": "public/assets/images/works/addu-blue-vote-website.png",
     "title": "AdDU Blue Vote Website",
     "label": ["UI/UX Design", "Web Development"],
     "link": "https://bluevote.addu.edu.ph/"
   },
   {
-    "image": "src/assets/images/works/ecosummit-website.png",
+    "image": "public/assets/images/works/ecosummit-website.png",
     "title": "EcoSummit 2021 Interactive Website",
     "label": ["Web Development"],
     "link": "https://ecosummit2021.netlify.app/"
   },
   {   
-    "image": "src/assets/images/works/healthcare-mobile-app-design.png",
+    "image": "public/assets/images/works/healthcare-mobile-app-design.png",
     "title": "Health Monitoring Mobile Application",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/zznv019yByF9yxfdgNnKDE/HCI-Research---Patient-Healthcare-Monitoring?node-id=24-86&starting-point-node-id=24%3A86"
   },
   {
-    "image": "src/assets/images/works/quote-estimation-app-design.png",
+    "image": "public/assets/images/works/quote-estimation-app-design.png",
     "title": "Quote Estimation App",
     "label": ["UI/UX Design"],
     "link": "https://xd.adobe.com/view/a9279de0-c20e-4d26-869b-7d76456816b1-fc74/?fullscreen&hints=off"
   },
   {
-    "image": "src/assets/images/works/philhealth-mobile-design.png",
+    "image": "public/assets/images/works/philhealth-mobile-design.png",
     "title": "PhilHealth Website Redesign Mobile",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/I8tS64fSRvcB5iloIJrmq1/PhilHealth-Mobile?node-id=2-6&starting-point-node-id=2%3A6"
   },
   {   
-    "image": "src/assets/images/works/demo-e-commerce-design.png",
+    "image": "public/assets/images/works/demo-e-commerce-design.png",
     "title": "Bitleads Demo E-Commerce App",
     "label": ["UI/UX Design"],
     "link": "https://xd.adobe.com/view/7e334998-fe10-424b-84e4-52aa5d9e7066-2b60/?fullscreen"
   },
   {
-    "image": "src/assets/images/works/addu-fiesta-website.png",
+    "image": "public/assets/images/works/addu-fiesta-website.png",
     "title": "66th Ateneo Fiesta Website  ",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/i2FmnAm8H88imTtwUxYwWw/Fiesta-Website-Desktop-Mockup?node-id=2-1078&starting-point-node-id=2%3A1078&scaling=scale-down-width&content-scaling=fixed"
   },
   {
-    "image": "src/assets/images/works/samahan-ang-pinas-website.png",
+    "image": "public/assets/images/works/samahan-ang-pinas-website.png",
     "title": "Samahan ang Pinas Website",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/kOeelBvcC8q5pVxwQAEfoe/Samahan-ang-Pinas?node-id=2-56&starting-point-node-id=2%3A56"
   },
   {   
-    "image": "src/assets/images/works/philhealth-desktop-design.png",
+    "image": "public/assets/images/works/philhealth-desktop-design.png",
     "title": "PhilHealth Website Redesign Desktop",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/HIpR0ckyWvYI0y3Fd2xNtw/PhilHealth-Desktop?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A0&node-id=2-0"
   },
   {
-    "image": "src/assets/images/works/vawg-infographics.png",
+    "image": "public/assets/images/works/vawg-infographics.png",
     "title": "VAWG Infographics",
     "label": ["Graphic Design"],
     "link": "https://www.behance.net/gallery/117556685/Infographics"
   },
   {
-    "image": "src/assets/images/works/gsp-at-80-poster.png",
+    "image": "public/assets/images/works/gsp-at-80-poster.png",
     "title": "GSP 80th Anniversary Poster",
     "label": ["Graphic Design"],
     "link": "https://www.behance.net/gallery/117557973/GSP-80"
