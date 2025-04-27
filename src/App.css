@@ -187,7 +187,7 @@ h1 {
   padding: 96px 120px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .content-container {
     padding: 48px 30px;
     gap: 30px;
@@ -200,6 +200,10 @@ h1 {
 
 .medium-text {
   font-weight: 600;
+}
+
+.margin-top-gap {
+  margin-top: 60px;
 }
 
 .heading {
@@ -296,14 +300,62 @@ h1 {
   width: 42%;
 }
 
-@media (max-width: 960px) {
-  .description-container {
-    width: 100%;
-  }
+.name-gradient {
+  padding-bottom: 4px;
 }
 
 .heading-intro {
   line-height: 3rem;
+  width: 43%;
+}
+
+@media (max-width: 1280px) {
+  .heading-intro {
+    width: 56%;
+  }
+
+  .description-container
+  {
+    width: 56%;
+  }
+
+  .name-gradient {
+    display: inline;
+  }
+}
+
+@media (max-width: 1180px) {
+  .heading-intro {
+    width: 70%;
+  }
+
+  .description-container
+  {
+    width: 70%;
+  }
+}
+
+@media (max-width: 960px) {
+  .heading-intro {
+    width: 100%;
+  }
+
+  .description-container
+  {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .heading-intro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .name-gradient {
+    display: block;
+  }
 }
 
 .paragraph-container {
