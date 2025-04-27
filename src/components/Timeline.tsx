@@ -1,16 +1,22 @@
 import '../App.css';
 
 type Props = {
+    icon: string;
     title: string;
     institution: string;
     award: string;
 };
 
-const Timeline = ({ title, institution, award }: Props) => (
-    <div className="timeline-text">
-        <h6>{title}</h6>
-        <div className="small-text">
-            <p>{institution}<br/>{award}</p>
+const Timeline = ({ icon, title, institution, award }: Props) => (
+    <div className="timeline-flex">
+        <span className="icon-container">
+            <img src={icon} alt={icon} />
+        </span>
+        <div className="timeline-text">
+            <span className="timeline-title">{title}</span>
+            <div className="small-text">
+                <span>{institution}<br/>{award}</span>
+            </div>
         </div>
     </div>
 );

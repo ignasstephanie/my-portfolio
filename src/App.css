@@ -319,9 +319,16 @@ h1 {
   background: linear-gradient(to right, #7DCDFA, #F285BA);
 }
 
+.timeline-list-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .timeline-flex {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 16px;
 }
 
 .icon-group {
@@ -352,14 +359,14 @@ h1 {
 }
 
 .line-connector {
-  height: 32px;
+  height: 28px;
   width: 4px;
+  margin-left: 22px;
   background: linear-gradient(to bottom, #7DCDFA, #F285BA);
 }
 
-.timeline-list {
-  display: flex;
-  flex-direction: column;
+.longer-line {
+  height: 40px;
 }
 
 .timeline-list {
@@ -367,17 +374,18 @@ h1 {
   flex-direction: column;
 }
 
-.gap-small {
-  gap: 2px;
-}
-
-.gap-large {
-  gap: 20px;
+.timeline-gap > *:not(:last-child) {
+  margin-bottom: -6px;
 }
 
 .timeline-text {
   display: flex;
   flex-direction: column;
+  gap: 4px;
+}
+
+.timeline-title {
+  font-size: 14px;
 }
 
 .small-text {

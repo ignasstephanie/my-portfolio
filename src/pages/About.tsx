@@ -2,12 +2,12 @@ import '../App.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Timeline from '../components/Timeline';
-import Icon from '../components/Icon';
 import Label from '../components/Label';
 import academics from '../data/academic.json';
 import jobs from '../data/jobexperience.json';
 import certifications from '../data/certifications.json';
 import techstack from '../data/techstack.json';
+import React from 'react';
 
 function About()
 {
@@ -35,30 +35,30 @@ function About()
                 <div className="text-left paragraph-container h-flex">
                     <div className="v-flex">
                         <h3 className="subheading" data-aos="fade-right" data-aos-delay="400">Academic <span className="gradient-text">Qualifications</span></h3>
-                        <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
-                            <div className="timeline-icons">
+                        <div className="timeline-list-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
+                            <div className="timeline-list timeline-gap">
                                 {academics.map((academic, index) => (
-                                    <Icon key={index} {...academic} />
-                                ))}
-                            </div>
-                            <div className="timeline-list gap-small">
-                                {academics.map((academic, index) => (
-                                    <Timeline key={index} {...academic} />
+                                <React.Fragment key={index}>
+                                    <Timeline {...academic} />
+                                    {index < academics.length - 1 && (
+                                    <div className="line-connector longer-line"></div>
+                                    )}
+                                </React.Fragment>
                                 ))}
                             </div>
                         </div>
                     </div>
                     <div className="v-flex">
                         <h3 className="subheading" data-aos="fade-right" data-aos-delay="400">Job <span className="gradient-text">Experiences</span></h3>
-                        <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
-                            <div className="timeline-icons">
+                        <div className="timeline-list-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
+                            <div className="timeline-list">
                                 {jobs.map((job, index) => (
-                                    <Icon key={index} {...job} />
-                                ))}
-                            </div>
-                            <div className="timeline-list gap-large">
-                                {jobs.map((job, index) => (
-                                    <Timeline key={index} {...job} />
+                                <React.Fragment key={index}>
+                                    <Timeline {...job} />
+                                    {index < jobs.length - 1 && (
+                                    <div className="line-connector"></div>
+                                    )}
+                                </React.Fragment>
                                 ))}
                             </div>
                         </div>
@@ -66,15 +66,15 @@ function About()
                 </div>
                 <div className="v-flex text-left paragraph-container">
                     <h3 className="subheading" data-aos="fade-right">Licenses & <span className="gradient-text">Certifications</span></h3>
-                    <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
-                        <div className="timeline-icons">
+                    <div className="timeline-list-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+                        <div className="timeline-list">
                             {certifications.map((certification, index) => (
-                                <Icon key={index} {...certification} />
-                            ))}
-                        </div>
-                        <div className="timeline-list gap-large">
-                            {certifications.map((certification, index) => (
-                                <Timeline key={index} {...certification} />
+                            <React.Fragment key={index}>
+                                <Timeline {...certification} />
+                                {index < certifications.length - 1 && (
+                                <div className="line-connector"></div>
+                                )}
+                            </React.Fragment>
                             ))}
                         </div>
                     </div>
