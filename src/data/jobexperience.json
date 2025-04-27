@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "src/assets/icons/job-experiences/practice-ai.svg",
+    "title": "Software Engineer & Web Developer",
+    "institution": "Law Practice AI (September 2023–Present)",
+    "award": ""
+  },
+  {
+    "icon": "src/assets/icons/job-experiences/legal-soft.svg",
+    "title": "Software Engineer & Web Developer",
+    "institution": "Legal Soft (July 2023–Present)",
+    "award": ""
+  },
+  {
+    "icon": "src/assets/icons/job-experiences/webforest.svg",
+    "title": "Graphic/UI Designer and Frontend Developer",
+    "institution": "Webforest Digital Solutions (November 2022–July 2023)",
+    "award": ""
+  },
+  {
+    "icon": "src/assets/icons/job-experiences/mvp-dev.svg",
+    "title": "UI/UX Designer - Intern",
+    "institution": "MVP.dev (April 2022–July 2022)",
+    "award": ""
+  }
+]

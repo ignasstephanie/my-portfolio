@@ -1,0 +1,136 @@
+import '../App.css';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Timeline from '../components/Timeline';
+import Icon from '../components/Icon';
+import Label from '../components/Label';
+import academics from '../data/academic.json';
+import jobs from '../data/jobexperience.json';
+import certifications from '../data/certifications.json';
+import techstack from '../data/techstack.json';
+
+function About()
+{
+    return (
+        <>
+        <div className="main">
+            <Navbar />
+            <div className="content-container">
+                <div className="text-left paragraph-container">
+                    <h1 className="heading-intro medium-text" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+                        Hello there! I am <br/>
+                        <span className="gradient-text">Stephanie Lorraine Ignas</span>
+                    </h1>
+                    <p className='description-container' data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500" data-aos-delay="200">
+                        With a keen eye for design and a mastery of code, I work seamlessly as a 
+                        <span className="gradient-text"> web designer</span>,
+                        <span className="gradient-text"> web developer</span>, and a 
+                        <span className="gradient-text"> graphic designer</span>. 
+                        With 4+ years of experience, I developed a strong understanding of user-centered 
+                        design principles and is able to bring websites and applications to life with a blend 
+                        of design thinking and technical expertise.
+                    </p>
+                </div>
+                <div className="text-left paragraph-container h-flex">
+                    <div className="v-flex">
+                        <h3 className="subheading" data-aos="fade-right" data-aos-delay="400">Academic <span className="gradient-text">Qualifications</span></h3>
+                        <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
+                            <div className="timeline-icons">
+                                {academics.map((academic, index) => (
+                                    <Icon key={index} {...academic} />
+                                ))}
+                            </div>
+                            <div className="timeline-list">
+                                {academics.map((academic, index) => (
+                                    <Timeline key={index} {...academic} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="v-flex">
+                        <h3 className="subheading" data-aos="fade-right" data-aos-delay="400">Job <span className="gradient-text">Experiences</span></h3>
+                        <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600">
+                            <div className="timeline-icons">
+                                {jobs.map((job, index) => (
+                                    <Icon key={index} {...job} />
+                                ))}
+                            </div>
+                            <div className="timeline-list">
+                                {jobs.map((job, index) => (
+                                    <Timeline key={index} {...job} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="v-flex text-left paragraph-container">
+                    <h3 className="subheading" data-aos="fade-right">Licenses & <span className="gradient-text">Certifications</span></h3>
+                    <div className="timeline-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+                        <div className="timeline-icons">
+                            {certifications.map((certification, index) => (
+                                <Icon key={index} {...certification} />
+                            ))}
+                        </div>
+                        <div className="timeline-list">
+                            {certifications.map((certification, index) => (
+                                <Timeline key={index} {...certification} />
+                            ))}
+                        </div>
+                    </div>
+                </div>
+                <h2 className="heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">My Tech <span className="gradient-text">Stack</span></h2>
+                <div className="padding-large">
+                    <div className="paragraph-container h-flex">
+                        <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+                            <h4>Frontend</h4>
+                            <div className="wrap-container">
+                                {techstack
+                                    .filter(t => t.type === 'frontend')
+                                    .map((techstack, index) => (
+                                        <Label key={index} {...techstack} />
+                                ))}
+                            </div>
+                        </div>
+                        <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+                            <h4>Backend</h4>
+                            <div className="wrap-container">
+                                {techstack
+                                    .filter(t => t.type === 'backend')
+                                    .map((techstack, index) => (
+                                        <Label key={index} {...techstack} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="paragraph-container h-flex">
+                        <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="700">
+                            <h4>UI Design</h4>
+                            <div className="wrap-container">
+                                {techstack
+                                    .filter(t => t.type === 'uidesign')
+                                    .map((techstack, index) => (
+                                        <Label key={index} {...techstack} />
+                                ))}
+                            </div>
+                        </div>
+                        <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="700">
+                            <h4>Graphic Design</h4>
+                            <div className="wrap-container">
+                                {techstack
+                                    .filter(t => t.type === 'graphicdesign')
+                                    .map((techstack, index) => (
+                                        <Label key={index} {...techstack} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Footer />
+        </div>
+        </>
+    )
+}
+
+export default About

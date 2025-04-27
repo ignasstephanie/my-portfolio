@@ -1,0 +1,87 @@
+[
+  {
+    "icon": "src/assets/images/tech-stack/blazor.png",
+    "title": "Blazor",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/typescript.png",
+    "title": "Typescript",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/vue-js.png",
+    "title": "Vue.js",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/react.png",
+    "title": "React",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/webflow.png",
+    "title": "Webflow",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/tailwind.png",
+    "title": "Tailwind",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/bootstrap.png",
+    "title": "Bootstrap",
+    "type": "frontend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/node-js.png",
+    "title": "Node.js",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/c-sharp.png",
+    "title": "C#",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/laravel.png",
+    "title": "Laravel",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/asp-net.png",
+    "title": "ASP.NET",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/firebase.png",
+    "title": "Firebase",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/mysql.png",
+    "title": "MySQL",
+    "type": "backend"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/figma.png",
+    "title": "Figma",
+    "type": "uidesign"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/adobe-xd.png",
+    "title": "Adobe XD",
+    "type": "uidesign"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/adobe-photoshop.png",
+    "title": "Adobe Photoshop",
+    "type": "graphicdesign"
+  },
+  {
+    "icon": "src/assets/images/tech-stack/adobe-illustrator.png",
+    "title": "Adobe Illustrator",
+    "type": "graphicdesign"
+  }
+]
