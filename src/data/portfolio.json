@@ -12,6 +12,18 @@
     "link": "https://www.behance.net/gallery/197737429/Law-Practice-AI-Logo"
   },
   {   
+    "image": "/assets/images/works/yaas.png",
+    "title": "Young and a Survivor (YAAS) Website",
+    "label": ["UI/UX Design"],
+    "link": "https://www.figma.com/design/THhB13clall25hLzzr60ks/YAAS?node-id=17-2053&t=u0RgwWATpMbn49aF-1"
+  },
+  {   
+    "image": "/assets/images/works/walker-engineering.png",
+    "title": "Walker Engineering Website",
+    "label": ["UI/UX Design"],
+    "link": "https://www.figma.com/design/QpcBXykgQ0141eZM89Fnes/Walker-Engineering?node-id=110-1842&t=89ZuA2mv9QqUtQEX-1"
+  },
+  {   
     "image": "/assets/images/works/isobiz-website.png",
     "title": "ISOBIZ Group Website",
     "label": ["UI/UX Design", "Web Development"],
