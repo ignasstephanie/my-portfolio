@@ -1,5 +1,5 @@
 import '../App.css';
-import Download from '../assets/icons/shared/download.svg';
+import Download from '/assets/icons/shared/download.svg';
 import { Link, useLocation } from 'react-router-dom';
 
 const handleDownload = () => {
