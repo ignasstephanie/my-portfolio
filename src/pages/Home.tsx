@@ -1,5 +1,5 @@
 import '../App.css';
-import Arrow from '../assets/icons/shared/arrow-up-right.svg';
+import Arrow from '/assets/icons/shared/arrow-up-right.svg';
 import { useNavigate } from "react-router-dom";
 
 function Home()
