@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/data/Stephanie_Ignas_Resume.pdf';
+    link.href = '/Stephanie_Ignas_Resume.pdf';
     link.download = 'Stephanie_Ignas_Resume.pdf';
     document.body.appendChild(link);
     link.click();
