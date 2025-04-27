@@ -1,14 +1,14 @@
 [
     {
-        "icon": "public/assets/icons/socials/linkedin.svg",
+        "icon": "/assets/icons/socials/linkedin.svg",
         "link": "https://www.linkedin.com/in/stephanieignas/"
     },
     {
-        "icon": "public/assets/icons/socials/behance.svg",
+        "icon": "/assets/icons/socials/behance.svg",
         "link": "https://www.behance.net/stephylococcus"
     },
     {
-        "icon": "public/assets/icons/socials/github.svg",
+        "icon": "/assets/icons/socials/github.svg",
         "link": "https://github.com/ignasstephanie"
     }
 ]

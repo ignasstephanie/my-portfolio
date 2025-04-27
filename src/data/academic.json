@@ -1,18 +1,18 @@
 [
   {
-    "icon": "public/assets/icons/academic-qualifications/laptop.svg",
+    "icon": "/assets/icons/academic-qualifications/laptop.svg",
     "title": "Bachelor of Science in Computer Science",
     "institution": "Ateneo de Davao University (2019–2023)",
     "award": "Summa Cum Laude"
   },
   {
-    "icon": "public/assets/icons/academic-qualifications/science.svg",
+    "icon": "/assets/icons/academic-qualifications/science.svg",
     "title": "Science, Technology, Engineering & Mathematics (STEM) Strand",
     "institution": "University of the Immaculate Conception (2017–2019)",
     "award": "With High Honors"
   },
   {   
-    "icon": "public/assets/icons/academic-qualifications/education-learning.svg",
+    "icon": "/assets/icons/academic-qualifications/education-learning.svg",
     "title": "Secondary Education",
     "institution": "University of the Immaculate Conception (2013–2017)",
     "award": "With High Honors"

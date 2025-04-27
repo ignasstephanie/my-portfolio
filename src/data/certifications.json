@@ -1,18 +1,18 @@
 [
   {
-    "icon": "public/assets/icons/licenses-certifications/topcit.svg",
+    "icon": "/assets/icons/licenses-certifications/topcit.svg",
     "title": "Test of Practical Competency in ICT (TOPCIT) - Top 4 in Region XI",
     "institution": "South Korea Institute for Information & Communication Technology Promotion (October 2022)",
     "award": ""
   },
   {
-    "icon": "public/assets/icons/licenses-certifications/accss.svg",
+    "icon": "/assets/icons/licenses-certifications/accss.svg",
     "title": "ACCSS Certified Achiever",
     "institution": "Ateneo Circle of Computer Studies Students (April 2022)",
     "award": ""
   },
   {   
-    "icon": "public/assets/icons/licenses-certifications/common-purpose.svg",
+    "icon": "/assets/icons/licenses-certifications/common-purpose.svg",
     "title": "Global Leadership Micro-credential",
     "institution": "Common Purpose (May 2021)",
     "award": ""

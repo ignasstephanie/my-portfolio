@@ -1,86 +1,86 @@
 [
   {
-    "icon": "public/assets/images/tech-stack/blazor.png",
+    "icon": "/assets/images/tech-stack/blazor.png",
     "title": "Blazor",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/typescript.png",
+    "icon": "/assets/images/tech-stack/typescript.png",
     "title": "Typescript",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/vue-js.png",
+    "icon": "/assets/images/tech-stack/vue-js.png",
     "title": "Vue.js",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/react.png",
+    "icon": "/assets/images/tech-stack/react.png",
     "title": "React",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/webflow.png",
+    "icon": "/assets/images/tech-stack/webflow.png",
     "title": "Webflow",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/tailwind.png",
+    "icon": "/assets/images/tech-stack/tailwind.png",
     "title": "Tailwind",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/bootstrap.png",
+    "icon": "/assets/images/tech-stack/bootstrap.png",
     "title": "Bootstrap",
     "type": "frontend"
   },
   {
-    "icon": "public/assets/images/tech-stack/node-js.png",
+    "icon": "/assets/images/tech-stack/node-js.png",
     "title": "Node.js",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/c-sharp.png",
+    "icon": "/assets/images/tech-stack/c-sharp.png",
     "title": "C#",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/laravel.png",
+    "icon": "/assets/images/tech-stack/laravel.png",
     "title": "Laravel",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/asp-net.png",
+    "icon": "/assets/images/tech-stack/asp-net.png",
     "title": "ASP.NET",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/firebase.png",
+    "icon": "/assets/images/tech-stack/firebase.png",
     "title": "Firebase",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/mysql.png",
+    "icon": "/assets/images/tech-stack/mysql.png",
     "title": "MySQL",
     "type": "backend"
   },
   {
-    "icon": "public/assets/images/tech-stack/figma.png",
+    "icon": "/assets/images/tech-stack/figma.png",
     "title": "Figma",
     "type": "uidesign"
   },
   {
-    "icon": "public/assets/images/tech-stack/adobe-xd.png",
+    "icon": "/assets/images/tech-stack/adobe-xd.png",
     "title": "Adobe XD",
     "type": "uidesign"
   },
   {
-    "icon": "public/assets/images/tech-stack/adobe-photoshop.png",
+    "icon": "/assets/images/tech-stack/adobe-photoshop.png",
     "title": "Adobe Photoshop",
     "type": "graphicdesign"
   },
   {
-    "icon": "public/assets/images/tech-stack/adobe-illustrator.png",
+    "icon": "/assets/images/tech-stack/adobe-illustrator.png",
     "title": "Adobe Illustrator",
     "type": "graphicdesign"
   }
