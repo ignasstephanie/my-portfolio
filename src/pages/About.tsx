@@ -72,7 +72,7 @@ function About()
                                 <Icon key={index} {...certification} />
                             ))}
                         </div>
-                        <div className="timeline-list">
+                        <div className="timeline-list gap-large">
                             {certifications.map((certification, index) => (
                                 <Timeline key={index} {...certification} />
                             ))}
