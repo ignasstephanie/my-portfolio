@@ -81,6 +81,13 @@ h1 {
   }
 }
 
+@media (max-width: 640px) {
+  .button-nav {
+    padding: 12px;
+  }
+}
+
+
 .main-button img {
   transition: transform 0.3s ease-in-out;
 }
@@ -131,6 +138,12 @@ h1 {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    gap: 0px;
+  }
 }
 
 .button-nav {
