@@ -51,6 +51,14 @@ h1 {
 
 .paragraph-text {
   font-size: 18px;
+  width: 50%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .paragraph-text {
+    width: 100%;
+  }
 }
 
 .button {
@@ -353,6 +361,8 @@ h1 {
   border-radius: 100px;
   width: 48px;
   height: 48px;
+  min-width: 48px;
+  min-height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
