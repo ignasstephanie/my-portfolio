@@ -1,11 +1,5 @@
 [
   {
-    "icon": "/assets/icons/job-experiences/practice-ai.svg",
-    "title": "Software Engineer & Web Developer",
-    "institution": "Law Practice AI (September 2023–Present)",
-    "award": ""
-  },
-  {
     "icon": "/assets/icons/job-experiences/legal-soft.svg",
     "title": "Software Engineer & Web Developer",
     "institution": "Legal Soft (July 2023–Present)",
@@ -21,6 +15,12 @@
     "icon": "/assets/icons/job-experiences/mvp-dev.svg",
     "title": "UI/UX Designer - Intern",
     "institution": "MVP.dev (April 2022–July 2022)",
+    "award": ""
+  },
+  {
+    "icon": "/assets/icons/job-experiences/arisen-lab.svg",
+    "title": "Web Designer and Developer",
+    "institution": "Ateneo de Davao Research in Information Systems and Software Engineering (ARISEn) Laboratory (November 2020–May 2023)",
     "award": ""
   }
 ]
