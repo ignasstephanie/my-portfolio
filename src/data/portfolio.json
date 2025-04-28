@@ -1,5 +1,11 @@
 [
   {
+    "image": "/assets/images/works/law-practice-ai-website-redesign.png",
+    "title": "Law Practice AI Website Redesign",
+    "label": ["UI/UX Design", "Web Development"],
+    "link": "https://www.figma.com/design/GaWjCuoYBJHSevKrLPlqTN/Law-Practice-AI?node-id=0-1&t=fhQaFarSz5qyCdt0-1"
+  },
+  {
     "image": "/assets/images/works/law-practice-ai-website.png",
     "title": "Law Practice AI Website",
     "label": ["UI/UX Design", "Web Development"],
