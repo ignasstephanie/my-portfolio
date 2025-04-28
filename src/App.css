@@ -396,7 +396,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0px;
+  gap: 16px;
 }
 
 .icon-group:last-child .line-connector {
