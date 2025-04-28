@@ -63,7 +63,7 @@
     "image": "/assets/images/works/addu-sas-website.png",
     "title": "AdDU School of Arts & Sciences",
     "label": ["UI/UX Design", "Web Development"],
-    "link": ""
+    "link": "https://www.addu.edu.ph/school-of-arts-and-sciences/"
   },
   {   
     "image": "/assets/images/works/addu-blue-vote-website.png",
@@ -82,6 +82,12 @@
     "title": "Health Monitoring Mobile Application",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/zznv019yByF9yxfdgNnKDE/HCI-Research---Patient-Healthcare-Monitoring?node-id=24-86&starting-point-node-id=24%3A86"
+  },
+  {
+    "image": "/assets/images/works/taas-logo.png",
+    "title": "Team as a Service Logo Design",
+    "label": ["Logo Design"],
+    "link": "https://www.behance.net/gallery/224700317/Team-as-a-Service-Logo-Design-Concept"
   },
   {
     "image": "/assets/images/works/quote-estimation-app-design.png",
