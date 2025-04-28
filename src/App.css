@@ -267,7 +267,7 @@ h1 {
 }
 
 .image-thumbnail {
-  width: 100%;
+  width: 350px;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
