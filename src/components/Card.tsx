@@ -10,13 +10,13 @@ type CardProps = {
 function getTagColor(tag: string): string {
     switch (tag) {
         case 'Logo Design':
-            return '#AE9BDE';
+            return '#9BDCDE';
         case 'Graphic Design':
             return '#AE9BDE'; 
         case 'UI/UX Design':
             return '#F285BA';
         case 'Web Development':
-            return '#7DCDFA';
+            return '#F28585';
         default:
             return '#121212';
     }
