@@ -53,6 +53,12 @@
     "label": ["Web Development"],
     "link": "https://metodozenon.com/"
   },
+  {
+    "image": "/assets/images/works/android-dev-cameras.png",
+    "title": "Native Android Mobile Application",
+    "label": ["Mobile App Development"],
+    "link": ""
+  },
   {   
     "image": "/assets/images/works/get-dat-work-logo.png",
     "title": "GetDatWork Logo",
