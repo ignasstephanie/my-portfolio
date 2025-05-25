@@ -16,6 +16,8 @@ function getTagColor(tag: string): string {
         case 'UI/UX Design':
             return '#F285BA';
         case 'Web Development':
+            return '#7DCDFA';
+        case 'Mobile App Development':
             return '#F28585';
         default:
             return '#121212';
