@@ -54,6 +54,12 @@
     "link": "https://metodozenon.com/"
   },
   {
+    "image": "/assets/images/works/davao-city-internet.png",
+    "title": "Davao City Internet Website",
+    "label": ["UI/UX Design", "Web Development"],
+    "link": "https://davao-city-internet.web.app/"
+  },
+  {
     "image": "/assets/images/works/android-dev-cameras.png",
     "title": "Native Android Mobile Application",
     "label": ["Mobile App Development"],
