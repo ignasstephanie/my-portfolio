@@ -1,5 +1,11 @@
 [
   {
+    "image": "/assets/images/works/harlem-print-magic.png",
+    "title": "Harlem Print Magic",
+    "label": ["UI/UX Design", "Web Development"],
+    "link": "https://harlemprintmagic.com/"
+  },
+  {
     "image": "/assets/images/works/law-practice-ai-website-redesign.png",
     "title": "Law Practice AI Website Redesign",
     "label": ["UI/UX Design", "Web Development"],
@@ -63,7 +69,7 @@
     "image": "/assets/images/works/android-dev-cameras.png",
     "title": "Native Android Mobile Application",
     "label": ["Mobile App Development"],
-    "link": ""
+    "link": "https://drive.google.com/file/d/1rxok75i9nOguj35tN16GIeXtiLJOi4Af/view?usp=drive_link"
   },
   {   
     "image": "/assets/images/works/get-dat-work-logo.png",
@@ -136,6 +142,18 @@
     "title": "PhilHealth Website Redesign Desktop",
     "label": ["UI/UX Design"],
     "link": "https://www.figma.com/proto/HIpR0ckyWvYI0y3Fd2xNtw/PhilHealth-Desktop?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A0&node-id=2-0"
+  },
+  {   
+    "image": "/assets/images/works/coircon-flyer.png",
+    "title": "COIRCon Flyer",
+    "label": ["Graphic Design"],
+    "link": "https://www.behance.net/gallery/244670823/COIRCon-Flyer"
+  },
+  {   
+    "image": "/assets/images/works/hyatt-real-estate.jpg",
+    "title": "Hyatt & Company Real Estate Flyer Redesign",
+    "label": ["Graphic Design"],
+    "link": "https://www.behance.net/gallery/244671383/Hyatt-Company-Real-Estate-Flyer-Redesign"
   },
   {
     "image": "/assets/images/works/vawg-infographics.png",
