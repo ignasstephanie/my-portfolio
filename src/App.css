@@ -260,6 +260,10 @@ h1 {
   width: fit-content;
   position: relative;
   width: 100%;
+  max-height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .card-container:hover .image-container .image-thumbnail{
