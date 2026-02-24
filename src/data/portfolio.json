@@ -1,7 +1,19 @@
 [
   {
+    "image": "/assets/images/works/bterrell.png",
+    "title": "BTerrell Website",
+    "label": ["UI/UX Design", "Web Development"],
+    "link": "https://www.bterrell.com/"
+  },
+  {
+    "image": "/assets/images/works/ledgerable.png",
+    "title": "Ledgerable Website",
+    "label": ["UI/UX Design", "Web Development"],
+    "link": "https://www.ledgerable.com/"
+  },
+  {
     "image": "/assets/images/works/harlem-print-magic.png",
-    "title": "Harlem Print Magic",
+    "title": "Harlem Print Magic Website",
     "label": ["UI/UX Design", "Web Development"],
     "link": "https://harlemprintmagic.com/"
   },
