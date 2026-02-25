@@ -284,10 +284,26 @@ h1 {
   border-radius: 4px;
 }
 
+.label-stack-wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 16px;
+}
+
 .card-labels {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.card-tech-stack {
+  display: flex;
+  gap: 10px;
+}
+
+.tech-tag {
+  max-height: 24px;
 }
 
 .text-flex {
@@ -486,6 +502,10 @@ h1 {
   gap: 24px;
 }
 
+.gap-medium {
+  gap: 80px;
+}
+
 .label {
   font-size: 14px;
 }
@@ -499,6 +519,16 @@ h1 {
 
 .width-half {
   width: 50%;
+}
+
+.width-70 {
+  width: 70%;
+  margin: auto;
+}
+
+.width-30 {
+  width: 30%;
+  margin: auto;
 }
 
 @media (max-width: 960px) {

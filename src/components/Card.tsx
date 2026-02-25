@@ -4,6 +4,7 @@ type CardProps = {
     image: string;
     title: string;
     label: string[]
+    stack: string[]
     link: string;
 };
 
@@ -24,17 +25,24 @@ function getTagColor(tag: string): string {
     }
 }
 
-const Card = ({ image, title, label, link }: CardProps) => (
+const Card = ({ image, title, label, stack, link }: CardProps) => (
     <a href={link} target="_blank" className="card-container">
         <div className="image-container">
             <img src={image} alt={image} className="image-thumbnail"/>
         </div>
         <div className='text-flex'>
             <h5 className="gradient-text text-left">{title}</h5>
-            <div className="card-labels">
-                {label.map((tag, index) => (
-                <span key={index} className="card-tag" style={{ backgroundColor: getTagColor(tag) }}>{tag}</span>
-                ))}
+            <div className="label-stack-wrap">
+                <div className="card-labels">
+                    {label.map((tag, index) => (
+                    <span key={index} className="card-tag" style={{ backgroundColor: getTagColor(tag) }}>{tag}</span>
+                    ))}
+                </div>
+                <div className="card-tech-stack">
+                    {stack.map((tag, index) => (
+                        <img key={index} className="tech-tag" src={tag} alt="" />
+                    ))}
+                </div>
             </div>
         </div>
     </a>
