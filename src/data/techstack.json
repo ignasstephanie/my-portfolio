@@ -19,8 +19,8 @@
     "type": "frontend"
   },
   {
-    "icon": "/assets/images/tech-stack/typescript.png",
-    "title": "Typescript",
+    "icon": "/assets/images/tech-stack/react.png",
+    "title": "React",
     "type": "frontend"
   },
   {
@@ -29,8 +29,8 @@
     "type": "frontend"
   },
   {
-    "icon": "/assets/images/tech-stack/react.png",
-    "title": "React",
+    "icon": "/assets/images/tech-stack/typescript.png",
+    "title": "Typescript",
     "type": "frontend"
   },
   {
