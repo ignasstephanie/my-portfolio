@@ -1,5 +1,19 @@
 [
   {
+    "icon": "/assets/images/tech-stack/html.png",
+    "title": "HTML",
+    "type": "frontend"
+  },
+  {
+    "icon": "/assets/images/tech-stack/css.png",
+    "title": "CSS",
+    "type": "frontend"
+  },
+  {
+    "icon": "/assets/images/tech-stack/javascript.png",
+    "title": "Javascript",
+    "type": "frontend"
+  },{
     "icon": "/assets/images/tech-stack/blazor.png",
     "title": "Blazor",
     "type": "frontend"
@@ -22,6 +36,16 @@
   {
     "icon": "/assets/images/tech-stack/webflow.png",
     "title": "Webflow",
+    "type": "frontend"
+  },
+  {
+    "icon": "/assets/images/tech-stack/wordpress.png",
+    "title": "Wordpress",
+    "type": "frontend"
+  },
+  {
+    "icon": "/assets/images/tech-stack/elementor.png",
+    "title": "Elementor",
     "type": "frontend"
   },
   {

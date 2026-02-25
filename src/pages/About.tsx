@@ -80,8 +80,7 @@ function About()
                 </div>
                 <h2 className="heading margin-top-gap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">My Tech <span className="gradient-text">Stack</span></h2>
                 <div className="padding-large">
-                <div className="paragraph-container h-flex">
-                    <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+                    <div className="v-flex width-70" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
                         <h4>Frontend</h4>
                         <div className="wrap-container">
                             {techstack
@@ -91,7 +90,7 @@ function About()
                             ))}
                         </div>
                     </div>
-                    <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+                    <div className="v-flex" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
                         <h4>Backend</h4>
                         <div className="wrap-container">
                             {techstack
@@ -101,8 +100,7 @@ function About()
                             ))}
                         </div>
                     </div>
-                </div>
-                <div className="paragraph-container h-flex">
+                <div className="paragraph-container h-flex gap-medium width-70">
                     <div className="v-flex width-half" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="700">
                         <h4>UI Design</h4>
                         <div className="wrap-container">
