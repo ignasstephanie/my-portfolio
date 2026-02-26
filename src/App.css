@@ -597,3 +597,8 @@ h1 {
   display: flex;
   gap: 10px;
 }
+
+.calendly-badge-content {
+  background: linear-gradient(to right, #7DCDFA, #F285BA) !important;
+  color: #121212 !important;
+}
