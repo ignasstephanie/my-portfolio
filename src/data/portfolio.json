@@ -91,6 +91,13 @@
     "link": "https://davao-city-internet.web.app/"
   },
   {
+    "image": "/assets/images/works/lens-and-pixels.png",
+    "title": "Lens and Pixels Website",
+    "label": ["Web Development"],
+    "stack": ["/assets/images/tech-stack/expressjs.png", "/assets/images/tech-stack/ejs.png", "/assets/images/tech-stack/tailwind.png"],
+    "link": "https://github.com/ignasstephanie/professional-cameras"
+  },
+  {
     "image": "/assets/images/works/android-dev-cameras.png",
     "title": "Native Android Mobile Application",
     "label": ["Mobile App Development"],
