@@ -26,7 +26,7 @@ function About()
                         <span className="gradient-text"> web designer</span>,
                         <span className="gradient-text"> web developer</span>, and a 
                         <span className="gradient-text"> graphic designer</span>. 
-                        With 4 years of experience, I developed a strong understanding of user-centered 
+                        With 5 years of experience, I developed a strong understanding of user-centered 
                         design principles and is able to bring websites and applications to life with a blend 
                         of design thinking and technical expertise.
                     </p>
