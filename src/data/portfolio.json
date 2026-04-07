@@ -1,5 +1,12 @@
 [
   {
+    "image": "/assets/images/works/shinobi-crypto.png",
+    "title": "Shinobi Crypto",
+    "label": ["Web Development"],
+    "stack": ["/assets/images/tech-stack/webflow.png"],
+    "link": "https://webflow.com/design/shinobi-crypto-community?utm_medium=project_link&utm_source=designer&utm_content=shinobi-crypto-community&workflow=comment&pageId=69b8583f0d99c45916a985a5"
+  },
+  {
     "image": "/assets/images/works/bterrell.png",
     "title": "BTerrell Website",
     "label": ["UI/UX Design", "Web Development"],
